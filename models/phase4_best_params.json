@@ -1,0 +1,34 @@
+{
+  "sarima": {
+    "D": 0,
+    "P": 1,
+    "Q": 2,
+    "d": 0,
+    "p": 2,
+    "q": 0
+  },
+  "holtwinters": {
+    "damped_trend": true,
+    "seasonal": "add",
+    "trend": "add",
+    "use_boxcox": false
+  },
+  "prophet": {
+    "changepoint_prior_scale": 0.00107950323475759,
+    "holidays_prior_scale": 9.983294804156207,
+    "seasonality_mode": "additive",
+    "seasonality_prior_scale": 0.46074622610969335
+  },
+  "xgboost": {
+    "colsample_bytree": 0.7868030884075355,
+    "gamma": 0.009119093299360267,
+    "learning_rate": 0.01023382798074777,
+    "max_depth": 2,
+    "min_child_weight": 6,
+    "n_estimators": 500,
+    "reg_alpha": 2.1493518351495733,
+    "reg_lambda": 0.10291950774249525,
+    "subsample": 0.7046951889813333
+  },
+  "champion": "Prophet (baseline)"
+}

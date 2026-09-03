@@ -1,0 +1,71 @@
+# ──────────────────────────────────────────────────────────────
+# Python
+# ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ──────────────────────────────────────────────────────────────
+# Virtual environments
+# ──────────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ──────────────────────────────────────────────────────────────
+# Jupyter
+# ──────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ──────────────────────────────────────────────────────────────
+# VS Code
+# ──────────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ──────────────────────────────────────────────────────────────
+# macOS
+# ──────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# ──────────────────────────────────────────────────────────────
+# Project-specific — large/regenerated artifacts
+# ──────────────────────────────────────────────────────────────
+mlruns/
+# models/ is committed: best_model.pkl is only ~43 KB and the app needs it on a fresh clone
+.gitkeep
+data/processed/
+
+# ──────────────────────────────────────────────────────────────
+# Logs and temp
+# ──────────────────────────────────────────────────────────────
+*.log
+*.tmp
+.cache/
+
+# Private working notes — never publish
+PROJECT_PLAN.md
